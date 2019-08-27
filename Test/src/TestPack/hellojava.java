@@ -26,7 +26,7 @@ public class hellojava {
 
 	}
 
-	// , dependsOnMethods = "test1"
+	// , dependsOnMethods = "test1"....
 	@Test(priority = 1, dataProvider = "testdata")
 	// @Test(dataProvider = "testdata", priority =1, dependsOnMethods = "test1" )
 	public void test2(String sUsername, String sPassword) {
