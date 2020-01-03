@@ -33,7 +33,7 @@ public class Opengoogle {
 	// @BeforeClass
 	public void beforeClass() {
 		long id = Thread.currentThread().getId();
-		System.out.println("Before test-class " + testName + ". Thread id is: " + id);
+		System.out.println("Before test-class " + testName + ". Thread id is is: " + id);
 	}
 
 	@Test
